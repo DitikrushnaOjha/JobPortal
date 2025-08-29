@@ -72,6 +72,7 @@
             </div>
 
             <!-- Job Listings -->
+
             <div class="col-md-8 col-lg-9">
                 <div class="job_listing_area">
                     <div class="job_lists">
@@ -115,7 +116,8 @@
                                     {{ $jobs->links() }}
                                 </div>
                             @else
-                                <div class="col-md-12">No jobs found.</div>
+                                <div class="col-md-12">No jobs found. </div>
+                                <p> i love u SONY DRLING ......jkbkhjbgug </p>
                             @endif
                         </div>
                     </div>
