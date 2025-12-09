@@ -12,7 +12,7 @@ use Illuminate\Auth\Middleware\Authenticate as MiddlewareAuthenticate;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/jobs', [JobsController::class, 'index'])->name('jobs.index');
 
-
+//public for testing
 
 
 //guest account routes
